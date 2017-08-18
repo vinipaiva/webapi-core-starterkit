@@ -23,4 +23,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi.Starter.Core\WebApi.Starter.Core.csproj" />
+    <ProjectReference Include="..\WebApi.Starter.IService\WebApi.Starter.Business.Contract.csproj" />
+    <ProjectReference Include="..\WebApi.Starter.ServiceContract\WebApi.Starter.DataAccess.Contract.csproj" />
+  </ItemGroup>
+
 </Project>

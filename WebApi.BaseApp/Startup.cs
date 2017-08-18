@@ -11,6 +11,7 @@ using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.Extensions.PlatformAbstractions;
 using System.IO;
+using WebApi.Starter.Core;
 
 namespace WebApi.BaseApp
 {
@@ -45,6 +46,7 @@ namespace WebApi.BaseApp
                 c.IncludeXmlComments(xmlPath);
             });
             services.AddMvcCore().AddApiExplorer();
+            DependencyConfig.ConfigureDependencies(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
