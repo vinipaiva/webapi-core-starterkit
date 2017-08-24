@@ -6,7 +6,7 @@ and it will have pretty much everything that you would want already set for you 
 * Swashbuckle / Swagger - Providing automatic documentation for your Api
 * Dependency Injection - Architecure in place to prevent developers on creating objects on their own.
 * Global exception handling - Central point to handle generic exceptions
-* Entity Framework + Sql Server 
+* Entity Framework + Sql Server + Migrations
 * Log
 * Validation - TBD
 * Unit tests - Business and Data layer
