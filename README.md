@@ -19,4 +19,4 @@ Some of the main goals of this project:
 
 * Provide a boilerplate solution for general WebApi applications.
 * Try to avoid usage of Object to Object mappings.
-* Try to avoid proxy methods. Eg. Methods on the business layer that may only call the data acess directly to retrieve data.
+* Try to avoid proxy methods. Eg. Methods on the business layer that may only call the data access directly to retrieve data.
