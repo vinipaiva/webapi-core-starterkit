@@ -7,19 +7,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.BaseApp", "WebApi.Ba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Starter.Core", "WebApi.Starter.Core\WebApi.Starter.Core.csproj", "{599A740C-FECC-4317-9F3A-2D1E842481AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Starter.Business", "WebApi.Starter.BusinessLayer\WebApi.Starter.Business.csproj", "{C6BC58EC-1533-4203-8E9A-3DA653F20041}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Starter.Business", "WebApi.Starter.BusinessLayer\WebApi.Starter.Business.csproj", "{C6BC58EC-1533-4203-8E9A-3DA653F20041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Starter.DataAccess", "WebApi.Starter.DataAccess\WebApi.Starter.DataAccess.csproj", "{520D964A-EB93-4C74-B8E3-AB7056FC9A42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Starter.DataAccess", "WebApi.Starter.DataAccess\WebApi.Starter.DataAccess.csproj", "{520D964A-EB93-4C74-B8E3-AB7056FC9A42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{E3424B23-EF7A-4748-9CBC-A6449F06906D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{7EA6AC23-36B9-4A65-9B06-10119E0ECC17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Starter.DataAccess.Contract", "WebApi.Starter.ServiceContract\WebApi.Starter.DataAccess.Contract.csproj", "{179A4FFC-DE63-41AA-A91D-3F71C91CA89F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Starter.DataAccess.Contract", "WebApi.Starter.ServiceContract\WebApi.Starter.DataAccess.Contract.csproj", "{179A4FFC-DE63-41AA-A91D-3F71C91CA89F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Starter.Business.Contract", "WebApi.Starter.IService\WebApi.Starter.Business.Contract.csproj", "{73A2EFE2-8AB0-4A46-8B08-24C1A04AA4F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Starter.Business.Contract", "WebApi.Starter.IService\WebApi.Starter.Business.Contract.csproj", "{73A2EFE2-8AB0-4A46-8B08-24C1A04AA4F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D757AEDD-E0B0-4A2E-B4B8-C429C40882C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5633E1F9-EFEC-4E36-9934-E5FC59F59668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api.Starter.Domain", "Web.Api.Starter.Domain\Web.Api.Starter.Domain.csproj", "{F7BEC0E2-EEB4-446B-8C7F-7FB247B7C971}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{73A2EFE2-8AB0-4A46-8B08-24C1A04AA4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A2EFE2-8AB0-4A46-8B08-24C1A04AA4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A2EFE2-8AB0-4A46-8B08-24C1A04AA4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BEC0E2-EEB4-446B-8C7F-7FB247B7C971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BEC0E2-EEB4-446B-8C7F-7FB247B7C971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BEC0E2-EEB4-446B-8C7F-7FB247B7C971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BEC0E2-EEB4-446B-8C7F-7FB247B7C971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{520D964A-EB93-4C74-B8E3-AB7056FC9A42} = {7EA6AC23-36B9-4A65-9B06-10119E0ECC17}
 		{179A4FFC-DE63-41AA-A91D-3F71C91CA89F} = {7EA6AC23-36B9-4A65-9B06-10119E0ECC17}
 		{73A2EFE2-8AB0-4A46-8B08-24C1A04AA4F9} = {E3424B23-EF7A-4748-9CBC-A6449F06906D}
+		{F7BEC0E2-EEB4-446B-8C7F-7FB247B7C971} = {5633E1F9-EFEC-4E36-9934-E5FC59F59668}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {572571C5-D133-41AD-B8D2-D74B67D7C74C}
