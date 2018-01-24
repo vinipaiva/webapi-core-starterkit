@@ -7,13 +7,9 @@ and it will have pretty much everything that you would want already set for you 
 * Dependency Injection - Architecure in place to prevent developers on creating objects on their own.
 * Global exception handling - Central point to handle generic exceptions
 * Entity Framework + Sql Server + Migrations
-* Log
-* Validation - TBD
+* Log and Profiling - Azure Application Insights but modular to be used with any other Log tool. 
 * Unit tests - Business and Data layer
-
-Future:
-* Profiling
-* Auditing (crosscutting concern?).
+* Validation - TBD
 
 Some of the main goals of this project:
 
